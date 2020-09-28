@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import Session from "./TimerSession";
-import PlayIcon from "../assets/play2.png";
-import StopIcon from "../assets/pause.png";
+import { ReactComponent as PlayIcon } from "../assets/play.svg";
+import { ReactComponent as StopIcon } from "../assets/stop.svg";
 
 function Timer() {
   const audioElement = useRef<HTMLAudioElement>(null);
@@ -94,14 +94,9 @@ function Timer() {
           handleResetButtonClick={handleResetButtonClick}
           startStopButtonLabel={
             isStarted ? (
-              <img alt="stopIcon" className="btn" src={StopIcon} />
+              <StopIcon className="btn" />
             ) : (
-              <img
-                alt="playIcon"
-                className="btn"
-                src={PlayIcon}
-                onClick={show}
-              />
+              <PlayIcon className="btn" onClick={show} />
             )
           }
         />

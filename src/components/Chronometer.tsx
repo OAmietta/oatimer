@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TimeChronometer from "./TimeChronometer";
-import PlayIcon from "../assets/play2.png";
-import StopIcon from "../assets/pause.png";
+import { ReactComponent as PlayIcon } from "../assets/play.svg";
+import { ReactComponent as StopIcon } from "../assets/stop.svg";
 import "../css/Chronometer.css";
 
 function Chronometer() {
@@ -42,9 +42,9 @@ function Chronometer() {
         handleResetButtonClick={handleResetButtonClick}
         startStopButtonLabel={
           isStarted ? (
-            <img alt="stopIcon" className="btn-c" src={StopIcon} />
+            <StopIcon className="btn" />
           ) : (
-            <img alt="playIcon" className="btn-c" src={PlayIcon} />
+            <PlayIcon className="btn" />
           )
         }
         timeChronometer={timeChronometer}
