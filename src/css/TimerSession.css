@@ -1,60 +1,66 @@
 .timer {
-    background: #343333;
-    height: 90vh;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: center; 
-    justify-content: space-evenly;
+  /* background: #343333; */
+  background-image: url('../assets/bg1.jpg');
+  height: 90vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  justify-content: space-evenly;
 }
 .timer-label-t {
-    color: #FFA462;
-    font-size: 1.5em; 
-   }
-.time-left-t {
-    display: none;
-    color: #ADABAA;
-    font-size: 4em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    
-}  
-.time-left-session-t {
-    color: #ADABAA;
-    font-size: 2em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  color: #ffa462;
+  font-size: 1.5em;
 }
-.timer-session{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.time-left-t {
+  display: none;
+  color: #adabaa;
+  font-size: 4em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.time-left-session-t {
+  color: #adabaa;
+  font-size: 2em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.timer-session {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .crement-btn-t {
-    height: 15px;
-    width: 15px;
-    margin:0 20px;
+  height: 15px;
+  width: 15px;
+  margin: 0 20px;
 }
-.event-btn-t{
-    color: #ADABAA;
-    /* margin: 0 100px; */
+.event-btn-t {
+  color: #adabaa;
+  /* margin: 0 100px; */
 }
 .hide {
-    
-    display: none;
-    transition: opacity 10s ease-out;
-    opacity: 0;
+  display: none;
+  transition: opacity 10s ease-out;
+  opacity: 0;
 }
 .show {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 500px) {
+  .timer {
+    width: 100vw;
+  }
 }

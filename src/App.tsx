@@ -18,7 +18,7 @@ export default function App(){
 
 return (
     <Router basename="/">
-      <div>
+      <div className="app">
         <div className="menu-g">
           <NavLink
               to="/pomodoro" 
@@ -86,15 +86,9 @@ function Home() {
       <div>
         <img alt="logo" className="logo" src={logo}/>
       </div>
-      {/* <Link className="start-button" to="/menu">TAP ME TO START</Link> */}
     </div>
   );
 }
-
-// function MenuTime() {
-//   return <Menu/>;
-// }
-
 function PomodoroTime() {
   return <Pomodoro/>;
 }

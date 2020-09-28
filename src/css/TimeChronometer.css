@@ -1,8 +1,9 @@
 
 .time-cr {
-    background: #343333;
+    /* background: #343333; */
+    background-image: url('../assets/bg1.jpg');
     height: 90vh;
-    width: auto;
+    width: 500px;;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -26,7 +27,11 @@
 .event-btn-cr{
     color: #ADABAA;
 }
-
+@media screen and (max-width: 500px) {
+    .time-cr {
+      width: 100vw;
+    }
+  }
 
 
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import TimeChronometer from "./TimeChronometer";
 import PlayIcon from "../assets/play2.png";
 import StopIcon from "../assets/pause.png";
@@ -8,11 +8,6 @@ function Chronometer() {
   const [intervalId, setIntervalId] = useState<NodeJS.Timeout | null>(null);
   const [sessionLength, setSessionLength] = useState(0);
   const [timeChronometer, setTimeChronometer] = useState(sessionLength);
-
-  // useEffect(() => {
-  //   setTimeChronometer(sessionLength);
-
-  // }, [sessionLength]);
 
   const isStarted = intervalId !== null;
 
