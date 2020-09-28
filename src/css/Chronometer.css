@@ -1,0 +1,21 @@
+.btn {
+    
+    height: 80px;
+    width: 80px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 100%;
+    background-color: #FFA462;
+  
+}
+.btn-c{
+   
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 100%;
+    background-color: #FFA462;
+  
+    
+}

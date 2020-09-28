@@ -1,0 +1,73 @@
+.pomodoro {
+    background: #343333;
+    height: 90vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center; 
+    justify-content: space-evenly;
+}
+.timer-label-p {
+    color: #FFA462;
+    font-size: 1.5em; 
+   }
+
+.none-label-p {
+    display: none;
+    color: #FFA462;
+    font-size: 1.5em; 
+}
+.time-left-p {
+    display: none;
+    color: #ADABAA;
+    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}  
+.events{
+    height: 20px;
+    width: 20px;
+}
+.events-display{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.time-left-session-p {
+    color: #ADABAA;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.p-session{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.crement-btn-p {
+    height: 15px;
+    width: 15px;
+    margin:0 20px;
+}
+.event-btn-p{
+    color: #ADABAA;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.hide {
+    
+    display: none;
+    transition: opacity 10s ease-out;
+    opacity: 0;
+}
+.show {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,38 @@
+.menu {
+    background: #343333;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center; 
+    justify-content: space-evenly;
+}
+
+.button-menu {
+   
+    color: #FFA462;
+    background: transparent;
+    font-size: 1.2em;
+    margin: 30px;
+    height: 50px;
+    width: 200px;
+    border: 5px solid;
+    border-radius: 2em;
+    user-select: none;
+    cursor: pointer;
+
+    
+}
+
+.button-menu-back {
+    background: transparent;
+    font-size: 1.2em;
+    margin: 30px;
+    height: 50px;
+    width: 100px;
+    border: 5px solid;
+    border-radius: 2em;
+    color: #ADABAA;
+}
+

@@ -1,0 +1,40 @@
+
+.time-cr {
+    background: #343333;
+    height: 90vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center; 
+    justify-content: space-evenly;
+}
+
+.timer-label-cr {
+    color: #FFA462;
+    font-size: 1.5em; 
+    
+   }
+ 
+.time-left-cr {
+    color: #ADABAA;
+    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   
+}  
+ 
+.event-btn-cr{
+    color: #ADABAA;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
